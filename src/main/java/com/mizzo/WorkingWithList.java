@@ -22,5 +22,7 @@ public class WorkingWithList {
         for(int i =0; i < colors.size(); i++){
             System.out.println(colors.get(i));
         }
+        colors.remove(0);
+        System.out.println(colors);
     }
 }
