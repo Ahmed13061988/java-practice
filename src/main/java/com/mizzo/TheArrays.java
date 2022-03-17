@@ -20,5 +20,11 @@ public class TheArrays {
         for( int i = colors.length-1; i >=0; i--){
             System.out.println(colors[i]);
         }
+
+        for (String color: colors){
+            System.out.println(color);
+        }
+
+        Arrays.stream(colors).forEach(System.out::println);
     }
 }
