@@ -17,7 +17,8 @@ public class WorkingWithQueues {
         System.out.println(supermarket);
         System.out.println(supermarket.remove());
         System.out.println(supermarket);
-
+        // the difference between poll() and remove() is the poll will not throw an exception if the queue is empty,
+        // the remove() will trow and exception if the queue is empty
     }
     static record Person(String name, int age){}
 }
