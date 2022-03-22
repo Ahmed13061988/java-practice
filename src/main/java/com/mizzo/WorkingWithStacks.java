@@ -13,5 +13,6 @@ public class WorkingWithStacks {
         System.out.println((stack.pop()));
         System.out.println(stack.empty());
         System.out.println(stack.size());
+        System.out.println(stack);
     }
 }
