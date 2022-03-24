@@ -10,6 +10,8 @@ public class WorkingWithQueues {
     LinkedList<Person> linkedList = new LinkedList<>();
     linkedList.add(new Person("Ahmed", 34));
     linkedList.add( new Person("Ali", 62));
+    linkedList.addFirst(new Person("Hussein", 51));
+    linkedList.addLast(new Person("Habib", 34));
         ListIterator<Person> personListIterator = linkedList.listIterator();
         while(personListIterator.hasNext()){
             System.out.println(personListIterator.next());
@@ -21,7 +23,7 @@ public class WorkingWithQueues {
     // every LinkedList has nodes, each node will have next and previous data of the nodes, unless it's first ( head)
     // or last (tail) nodes and that's mean head will not have previous data and it will be null
     // the tail will not have next node data and will be null
-    //LinkedList will cost more of memory usage, because of using the data of previous and next nodes. 
+    //LinkedList will cost more of memory usage, because of using the data of previous and next nodes.
 
     private static void queue(){
         Queue<Person> supermarket = new LinkedList();
