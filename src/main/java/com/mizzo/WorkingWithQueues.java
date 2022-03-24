@@ -21,6 +21,7 @@ public class WorkingWithQueues {
     // every LinkedList has nodes, each node will have next and previous data of the nodes, unless it's first ( head)
     // or last (tail) nodes and that's mean head will not have previous data and it will be null
     // the tail will not have next node data and will be null
+    //LinkedList will cost more of memory usage, because of using the data of previous and next nodes. 
 
     private static void queue(){
         Queue<Person> supermarket = new LinkedList();
