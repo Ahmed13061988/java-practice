@@ -16,6 +16,8 @@ public class WorkingWithSets {
         //There are no duplicates allowed in Set
         //There is no get method, because there is no order
         balls.forEach(System.out::println);
+        balls.remove(new Ball("Red"));
+        System.out.println(balls);
 
     }
 
