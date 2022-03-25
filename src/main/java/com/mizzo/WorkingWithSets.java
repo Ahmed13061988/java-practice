@@ -14,6 +14,8 @@ public class WorkingWithSets {
         System.out.println(balls);
         //Set will randomly put the elements, there is no order for elements
         //There are no duplicates allowed in Set
+        //There is no get method, because there is no order
+        balls.forEach(System.out::println);
 
     }
 
